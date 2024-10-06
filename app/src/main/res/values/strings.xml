@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TugasTaskReminder_6</string>
+    <string name="add_task">Add Task</string>
+    <string name="reminder">Make your own Reminder.</string>
+</resources>

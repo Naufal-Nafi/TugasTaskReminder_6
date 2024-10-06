@@ -1,0 +1,28 @@
+<!-- res/layout/header.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <!-- Konten Header -->
+    <TextView
+        android:id="@+id/tv_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimpliRemind"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        />
+
+    <!-- Garis di bawah header -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
+
